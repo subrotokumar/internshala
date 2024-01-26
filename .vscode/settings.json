@@ -17,7 +17,11 @@
     "**/test": true,
     "**/.metadata": true,
     "**/ios": true,
-    "**/android": true
+    "**/android": true,
+    "**/.idea": true,
+    "**/.dart_tool": true,
+    "**/build": true,
+    "**/internshala.iml": true
   },
   "explorerExclude.backup": {}
 }

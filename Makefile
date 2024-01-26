@@ -5,4 +5,4 @@ asset:
 	@fluttergen.bat
 
 appicon:
-	@dart run flutter_launcher_icons:main
+	@dart run icons_launcher:create --path ./icons_launcher.yaml

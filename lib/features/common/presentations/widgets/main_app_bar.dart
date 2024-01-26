@@ -93,6 +93,8 @@ class _AppBarWithSearchState extends State<_AppBarWithSearch> {
   Widget build(BuildContext context) {
     if (search) {
       return AppBar(
+        scrolledUnderElevation: 0,
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         leading: GestureDetector(
           onTap: () => setState(() => search = false),
           child: Icon(PhosphorIcons.caretLeft()),
@@ -114,6 +116,8 @@ class _AppBarWithSearchState extends State<_AppBarWithSearch> {
       return Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10),
         child: AppBar(
+          scrolledUnderElevation: 0,
+          backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           leadingWidth: 30,
           title: Text(
             switch (widget.index) {
