@@ -6,7 +6,7 @@ import 'package:internshala/features/internship/data/models/application_status_m
 import 'package:internshala/features/internship/data/models/label.dart';
 import 'package:internshala/features/internship/data/models/location.dart';
 import 'package:internshala/features/internship/data/models/stipend.dart';
-import 'package:internshala/features/internship/domain/entities/internship_metadata.dart';
+import 'package:internshala/features/internship/domain/entities/internship_metadata_entity.dart';
 
 part 'gen/internship_metadata.freezed.dart';
 part 'gen/internship_metadata.g.dart';

@@ -2,7 +2,7 @@
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:internshala/features/internship/domain/entities/location.dart';
+import 'package:internshala/features/internship/domain/entities/location_entity.dart';
 
 part 'gen/location.freezed.dart';
 part 'gen/location.g.dart';

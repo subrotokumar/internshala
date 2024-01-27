@@ -1,8 +1,7 @@
 // ignore_for_file: invalid_annotation_target
 
 import 'package:freezed_annotation/freezed_annotation.dart';
-
-import 'package:internshala/features/internship/domain/entities/Stipend.dart';
+import 'package:internshala/features/internship/domain/entities/stipend_entity.dart';
 
 part 'gen/stipend.freezed.dart';
 part 'gen/stipend.g.dart';

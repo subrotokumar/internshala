@@ -2,7 +2,7 @@
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:internshala/features/internship/domain/entities/application_status_message.dart';
+import 'package:internshala/features/internship/domain/entities/application_status_message_entry.dart';
 
 part 'gen/application_status_message.freezed.dart';
 part 'gen/application_status_message.g.dart';

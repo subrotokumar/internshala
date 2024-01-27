@@ -2,7 +2,7 @@
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:internshala/features/internship/data/models/internship_metadata.dart';
-import 'package:internshala/features/internship/domain/entities/internship_response.dart';
+import 'package:internshala/features/internship/domain/entities/internship_response_entity.dart';
 part 'gen/internship_response.freezed.dart';
 part 'gen/internship_response.g.dart';
 

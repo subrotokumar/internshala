@@ -1,4 +1,4 @@
-import 'package:internshala/features/internship/domain/entities/internship_metadata.dart';
+import 'package:internshala/features/internship/domain/entities/internship_metadata_entity.dart';
 
 class InternshipResponse {
   final Map<String, InternshipsMeta> internshipsMeta;

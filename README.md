@@ -7,25 +7,38 @@
 [![GitHub issues](https://img.shields.io/github/issues/subrotokumar/internshala)](https://github.com/subrotokumar/internshala/issues)
 [![GitHub license](https://img.shields.io/github/license/subrotokumar/internshala)](https://github.com/subrotokumar/internshala/blob/main/LICENSE)
 
-> Brief description of your app.
+> Trusted by 21 million College students & Graduates.
 
 ## Table of Contents
 
 - [Features](#features)
 - [Screenshots](#screenshots)
+- [Architecture](#architecture)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Features
 
-- Technology Used:  
+- **Technology Used**:
+
   ![](https://skillicons.dev/icons?i=dart,flutter&theme=light)
-- Clean Architecture
+
+  Packages used: **Dio**, **Retrofit**, **Riverpod**
+
+- **Clean Architecture**:
+  Project adheres to the principles of Clean Architecture, promoting a clear separation of concerns between the business logic, presentation layer, and data sources.
+
+## Screenshots
+
+<img src="screenshot/splash.jpg" width="250">&nbsp;&nbsp;&nbsp;
+<img src="screenshot/internship.jpg" width="250">&nbsp;&nbsp;&nbsp;
+<img src="screenshot/drawer.jpg" width="250"><br><br>
+<img src="screenshot/home.jpg" width="250">&nbsp;&nbsp;&nbsp;
+<img src="screenshot/filter.jpg" width="250">
 
 ## Architecture
 
@@ -52,12 +65,6 @@
   - 📄**app.dart**
   - 📄**main.dart**
 
-## Screenshots
-
-<img src="screenshot/splash.jpg" width="150">&nbsp;&nbsp;&nbsp;
-<img src="screenshot/internship.jpg" width="150">&nbsp;&nbsp;&nbsp;
-<img src="screenshot/drawer.jpg" width="150">
-
 ## Getting Started
 
 ### Prerequisites
@@ -68,7 +75,12 @@
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/subrotokumar/internshala.git
-   ```
+```sh
+git clone https://github.com/subrotokumar/internshala.git
+
+cd internshala
+
+dart run build_runner build --delete-conflicting-outputs
+
+flutter run
+```

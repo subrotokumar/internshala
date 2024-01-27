@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 
 import 'package:internshala/config/theme/app_color.dart';
-import 'package:internshala/features/internship/domain/entities/internship_metadata.dart';
+import 'package:internshala/features/internship/domain/entities/internship_metadata_entity.dart';
 
 class InternshipTile extends StatelessWidget {
   final InternshipsMeta data;

@@ -1,7 +1,7 @@
-import 'package:internshala/features/internship/domain/entities/Stipend.dart';
-import 'package:internshala/features/internship/domain/entities/application_status_message.dart';
-import 'package:internshala/features/internship/domain/entities/label.dart';
-import 'package:internshala/features/internship/domain/entities/location.dart';
+import 'package:internshala/features/internship/domain/entities/application_status_message_entry.dart';
+import 'package:internshala/features/internship/domain/entities/label_entity.dart';
+import 'package:internshala/features/internship/domain/entities/location_entity.dart';
+import 'package:internshala/features/internship/domain/entities/stipend_entity.dart';
 
 class InternshipsMeta {
   final int id;

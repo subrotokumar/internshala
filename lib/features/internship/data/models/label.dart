@@ -2,7 +2,7 @@
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:internshala/features/internship/domain/entities/label.dart';
+import 'package:internshala/features/internship/domain/entities/label_entity.dart';
 
 part 'gen/label.freezed.dart';
 part 'gen/label.g.dart';

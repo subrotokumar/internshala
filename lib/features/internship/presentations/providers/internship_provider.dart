@@ -4,7 +4,7 @@ import 'package:internshala/core/resources/data_state.dart';
 import 'package:internshala/features/common/presentations/provider/dio_provider.dart';
 import 'package:internshala/features/internship/data/respositories/internship_repository.dart';
 import 'package:internshala/features/internship/data/source/remote/api_client.dart';
-import 'package:internshala/features/internship/domain/entities/internship_metadata.dart';
+import 'package:internshala/features/internship/domain/entities/internship_metadata_entity.dart';
 import 'package:internshala/features/internship/domain/repositories/internship_repository.dart';
 import 'package:internshala/features/internship/domain/usecase/internship_usecase.dart';
 
