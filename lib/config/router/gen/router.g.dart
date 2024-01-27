@@ -9,6 +9,7 @@ part of '../router.dart';
 List<RouteBase> get $appRoutes => [
       $splashScreenRoute,
       $homeScreenRoute,
+      $internshipFilterScreenRouter,
     ];
 
 RouteBase get $splashScreenRoute => GoRouteData.$route(
@@ -44,6 +45,30 @@ extension $HomeScreenRouteExtension on HomeScreenRoute {
 
   String get location => GoRouteData.$location(
         '/',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+RouteBase get $internshipFilterScreenRouter => GoRouteData.$route(
+      path: '/internships/filter',
+      factory: $InternshipFilterScreenRouterExtension._fromState,
+    );
+
+extension $InternshipFilterScreenRouterExtension
+    on InternshipFilterScreenRouter {
+  static InternshipFilterScreenRouter _fromState(GoRouterState state) =>
+      InternshipFilterScreenRouter();
+
+  String get location => GoRouteData.$location(
+        '/internships/filter',
       );
 
   void go(BuildContext context) => context.go(location);

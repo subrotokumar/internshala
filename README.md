@@ -1,4 +1,6 @@
-# Your App Name
+<img src="./assets/icons/logo.png" width="100">
+
+# Internshala
 
 [![GitHub stars](https://img.shields.io/github/stars/subrotokumar/internshala)](https://github.com/subrotokumar/internshala/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/subrotokumar/internshala)](https://github.com/subrotokumar/internshala/network)
@@ -21,7 +23,8 @@
 
 ## Features
 
-- Technology Used:
+- Technology Used:  
+  ![](https://skillicons.dev/icons?i=dart,flutter&theme=light)
 - Clean Architecture
 
 ## Architecture
@@ -51,8 +54,9 @@
 
 ## Screenshots
 
-![App Screenshot 1](screenshots/screenshot1.png)
-![App Screenshot 2](screenshots/screenshot2.png)
+<img src="screenshot/splash.jpg" width="150">&nbsp;&nbsp;&nbsp;
+<img src="screenshot/internship.jpg" width="150">&nbsp;&nbsp;&nbsp;
+<img src="screenshot/drawer.jpg" width="150">
 
 ## Getting Started
 

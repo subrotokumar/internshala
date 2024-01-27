@@ -1,5 +1,29 @@
 {
   "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "**/Thumbs.db": false,
+    "**/.classpath": false,
+    "**/.project": false,
+    "**/.settings": false,
+    "**/.factorypath": false,
+    "**/windows": false,
+    "**/linux": false,
+    "**/web": false,
+    "**/macos": false,
+    "**/test": false,
+    "**/.metadata": false,
+    "**/ios": false,
+    "**/android": false,
+    "**/.idea": false,
+    "**/.dart_tool": false,
+    "**/build": false,
+    "**/internshala.iml": false
+  },
+  "explorerExclude.backup": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -22,6 +46,5 @@
     "**/.dart_tool": true,
     "**/build": true,
     "**/internshala.iml": true
-  },
-  "explorerExclude.backup": {}
+  }
 }

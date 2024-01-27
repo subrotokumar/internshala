@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:internshala/config/router/router.dart';
 import 'package:internshala/core/constants/assets.gen.dart';
+import 'package:internshala/config/router/router.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -32,6 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
             const Spacer(),
             Assets.images.logo.image(),
             const Spacer(),
+            Assets.images.secure.image(height: 80),
             const Text(
               'Trusted by over 21 Million\nCollege students & Graduates',
               textAlign: TextAlign.center,

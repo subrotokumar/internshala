@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 final navIndexProvider = StateProvider<int>((ref) => 0);
 
@@ -20,7 +21,13 @@ class MainNavigationBar extends ConsumerWidget {
       unselectedFontSize: 12,
       elevation: 10,
       onTap: (v) {
-        ref.read(navIndexProvider.notifier).state = v;
+        if (v >= 0 && v <= 2) {
+          ref.read(navIndexProvider.notifier).state = v;
+        } else if (v == 3) {
+          launchUrlString('https://clubs.internshala.com');
+        } else {
+          launchUrlString('https://trainings.internshala.com');
+        }
       },
       items: const [
         BottomNavigationBarItem(

@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:internshala/features/common/presentations/screens/main_screen.dart';
 import 'package:internshala/features/common/presentations/screens/splash_screen.dart';
+import 'package:internshala/features/internship/presentations/screens/filter_screen.dart';
 part 'gen/router.g.dart';
 
 final routerProvider = Provider(
@@ -22,4 +23,10 @@ class SplashScreenRoute extends GoRouteData {
 class HomeScreenRoute extends GoRouteData {
   @override
   Widget build(context, state) => const MainScreen();
+}
+
+@TypedGoRoute<InternshipFilterScreenRouter>(path: '/internships/filter')
+class InternshipFilterScreenRouter extends GoRouteData {
+  @override
+  Widget build(context, state) => const InternshipFilterScreen();
 }

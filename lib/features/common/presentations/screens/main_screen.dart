@@ -42,7 +42,7 @@ class _MainScreenState extends ConsumerState<MainScreen> {
             return const [
               HomeScreen(),
               InternshipScreen(),
-              Text('Jobs'),
+              Center(child: Chip(label: Text('Jobs'))),
               Text('Clubs'),
               Text('Courses'),
             ].elementAt(navIndex);

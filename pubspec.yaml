@@ -24,6 +24,9 @@ dependencies:
   riverpod_annotation: ^2.3.3
   logger: ^2.0.2+1
   envied: ^0.5.3
+  cached_network_image: ^3.3.1
+  url_launcher: ^6.2.4
+  flutter_animate: ^4.4.1
 
 dev_dependencies:
   flutter_test:
@@ -36,6 +39,7 @@ dev_dependencies:
   json_serializable: ^6.7.1
   riverpod_generator: ^2.3.9
   envied_generator: ^0.5.3
+  icons_launcher: ^2.1.7
 
 flutter_gen:
   output: lib/core/constants/
